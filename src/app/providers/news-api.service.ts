@@ -30,26 +30,26 @@ export class NewsApiService implements OnInit {
 
   // fetch country code from ip location API
   // response.setHeader("Set-Cookie", "HttpOnly;Secure;SameSite=Strict");
-  // getCountryCode() {
-  //   return this.http.get<LocationResponse>("https://ipapi.co/json").pipe(
-  //     map((data: LocationResponse) => data),
-  //     catchError((err) => {
-  //       return throwError("News sources not found, error: ", err);
-  //     })
-  //   );
-  // }
+  getCountryCode() {
+    return this.http.get<LocationResponse>("https://ipapi.co/json").pipe(
+      map((data: LocationResponse) => data),
+      catchError((err) => {
+        return throwError("News sources not found, error: ", err);
+      })
+    );
+  }
 
   // fetch sources from news API using url input
-  // getSources(url: string) {
-  //   return this.http
-  //     .get<SourcesResponse>(`${apiUrl}/${url}&apiKey=${apiKey}`)
-  //     .pipe(
-  //       map((data: SourcesResponse) => data),
-  //       catchError((err) => {
-  //         return throwError("News sources not found, error: ", err);
-  //       })
-  //     );
-  // }
+  getSources(url: string) {
+    return this.http
+      .get<SourcesResponse>(`${apiUrl}/${url}&apiKey=${apiKey}`)
+      .pipe(
+        map((data: SourcesResponse) => data),
+        catchError((err) => {
+          return throwError("News sources not found, error: ", err);
+        })
+      );
+  }
 
   // fetch news from news API using url input
   getNews(url: string): Observable<NewsApiResponse> {
@@ -64,8 +64,8 @@ export class NewsApiService implements OnInit {
   }
 
   // navigate to news-detail page to show article detail
-  // getNewsDetail(article: Article) {
-  //   this.currentArticle = article;
-  //   this.router.navigate(["/news-detail"]);
-  // }
+  getNewsDetail(article: Article) {
+    this.currentArticle = article;
+    this.router.navigate(["/news-detail"]);
+  }
 }

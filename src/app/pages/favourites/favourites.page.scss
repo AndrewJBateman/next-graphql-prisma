@@ -1,0 +1,20 @@
+h2 {
+	color: var(--ion-color-light-contrast);
+}
+
+.no-favourites-card {
+  position: relative;
+  margin-top: 80px;
+  text-align: center;
+  color: white;
+}
+
+.icon {
+	vertical-align: middle;
+	color: var(--ion-color-tertiary);
+}
+
+.card-svg {
+  vertical-align: middle;
+	color: var(--ion-color-secondary);
+}

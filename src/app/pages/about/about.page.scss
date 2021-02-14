@@ -1,0 +1,74 @@
+// ion-card-title {
+// 	color: var(--ion-color-dark);
+// }
+
+.about-header img {
+	width: 100%;
+	height: 100%;
+	max-height: 30vh;
+	object-fit: cover;
+}
+
+.title-icon {
+  vertical-align: middle;
+  color: var(--ion-color-secondary);
+  padding-right: 4px;
+}
+
+p {
+	width: 100%;
+	text-align: justify;
+	margin: auto 0 10px;
+	color: var(--ion-color-light-contrast);
+}
+
+a:link {
+	color: var(--ion-color-secondary);
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color: var(--ion-color-secondary-shade);
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:hover, a:active {
+	color: var(--ion-color-secondary-shade);
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+.image-div {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.mat-card-image {
+  border-bottom-style: solid;
+  border-bottom-width: 4px;
+  border-bottom-color: var(--ion-color-tertiary);
+}
+
+/* Bottom right text */
+.photo-credit {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.55); /* Black background with 0.55 opacity */
+  color: white;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.icon {
+	vertical-align: middle;
+	color: var(--ion-color-tertiary);
+}
+
+.about-card {
+	background-color: var(--ion-color-light);
+}
