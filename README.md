@@ -119,11 +119,11 @@ export class ThemeService {
 
 ## :clipboard: Status
 
-* Status: working basic news API with SSR
+* Status: working basic news API but SSR NOT WORKING
 
 ## :clipboard: To-do
 
-* Check NewsAPI works when deployed
+* Await WinMedia fix for SSR.
 
 ## :clap: Inspiration
 
@@ -134,6 +134,7 @@ export class ThemeService {
 * [Easy-Resize to resize images to a smaller file size](https://www.easy-resize.com/en/)
 * [Font Awesome Free Icon svgs](https://fontawesome.com/icons?d=gallery&m=free)
 * [nostop8: Serving Cached Angular Universal (SSR) Web App through Apache Proxy](https://nostop8.medium.com/serving-cached-angular-universal-ssr-web-app-through-apache-proxy-e8fe2e4b3fff)
+* [Ionic Blog SSR with Angular Universal And Ionic](https://ionicframework.com/blog/ssr-with-angular-universal-and-ionic/)
 
 ## :envelope: Contact
 

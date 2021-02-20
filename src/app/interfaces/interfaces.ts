@@ -22,7 +22,7 @@ export interface LocationResponse {
 
 // format of news API response arrays
 export interface SourcesResponse {
-  status: "ok";
+  status: 'ok';
   sources: Source[];
 }
 
