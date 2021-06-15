@@ -1,4 +1,4 @@
-# :zap: Ionic Angular SSR
+# :zap: Ionic Angular Sandbox
 
 * Ionic sandbox app tba.
 
@@ -49,15 +49,12 @@ tba
 * tba
 
 ```typescript
-// enable dark or light mode from html toggle switch event via changeThemeMode() function
 tba
 ```
 
 ## :cool: Features
 
 * tba
-
-* [Ionic colour generator](https://ionicframework.com/docs/theming/color-generator) used to create color palette
 
 ## :books: Navigation/Pages
 
@@ -74,6 +71,7 @@ tba
 ## :clap: Inspiration
 
 * tba
+* 
 ## :file_folder: License
 
 * This project is licensed under the terms of the MIT license.
