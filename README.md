@@ -1,81 +1,29 @@
-# :zap: Ionic Angular Sandbox
+# Next.js + Tailwind CSS Example
 
-* Ionic sandbox app tba.
+This example shows how to use [Tailwind CSS](https://tailwindcss.com/) (v2.1) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
 
-![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/ionic-angular-ssr?style=plastic)
-![GitHub issues](https://img.shields.io/github/issues/AndrewJBateman/ionic-angular-ssr?style=plastic)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/AndrewJBateman/ionic-angular-ssr?style=plastic)
-![GitHub Repo stars](https://img.shields.io/github/stars/AndrewJBateman/ionic-angular-ssr?style=for-the-badge)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/AndrewJBateman/ionic-angular-ssr?style=plastic)
+It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
 
-## :page_facing_up: Table of contents
+## Preview
 
-* [:zap: Ionic Angular SSR](#zap-ionic-angular-ssr)
-  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
-  * [:books: General info](#books-general-info)
-  * [:camera: Screenshots](#camera-screenshots)
-  * [:signal_strength: Technologies](#signal_strength-technologies)
-  * [:floppy_disk: Setup](#floppy_disk-setup)
-  * [:computer: Code Examples](#computer-code-examples)
-  * [:cool: Features](#cool-features)
-  * [:books: Navigation/Pages](#books-navigationpages)
-  * [:clipboard: Status](#clipboard-status)
-  * [:clipboard: To-do](#clipboard-to-do)
-  * [:clap: Inspiration](#clap-inspiration)
-  * [:envelope: Contact](#envelope-contact)
+Preview the example live on [StackBlitz](http://stackblitz.com/):
 
-## :books: General info
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
-* tba
+## Deploy your own
 
-## :camera: Screenshots
+Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
 
-tba
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
-## :signal_strength: Technologies
+## How to use
 
-* [Ionic v5](https://ionicframework.com/)
-* [Angular v11](https://angular.io/)
-* [Ionic/angular v5](https://www.npmjs.com/package/@ionic/angular)
-* [RxJS v6](https://reactivex.io/)
-* [News REST API used to search for news articles](https://newsapi.org/)
+Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
 
-## :floppy_disk: Setup
-
-* tba
-
-## :computer: Code Examples
-
-* tba
-
-```typescript
-tba
+```bash
+npx create-next-app --example with-tailwindcss with-tailwindcss-app
+# or
+yarn create next-app --example with-tailwindcss with-tailwindcss-app
 ```
 
-## :cool: Features
-
-* tba
-
-## :books: Navigation/Pages
-
-* tba
-
-## :clipboard: Status
-
-* Status: tba
-
-## :clipboard: To-do
-
-* tba
-
-## :clap: Inspiration
-
-* tba
-* 
-## :file_folder: License
-
-* This project is licensed under the terms of the MIT license.
-
-## :envelope: Contact
-
-* Repo created by [ABateman](https://github.com/AndrewJBateman), email: gomezbateman@yahoo.com
+Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).

@@ -1,7 +1,0 @@
-{
-  "name": "ionic-angular-ssr",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
